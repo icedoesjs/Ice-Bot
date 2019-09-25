@@ -107,6 +107,7 @@ client.on("guildCreate", guild => { //Reset activity on Join
 
 
 
+
 client.on("guildDelete", guild => { //Reset activity on leave
   // this event triggers when the bot is removed from a guild.
   console.log(`I have been removed from: ${guild.name} (id: ${guild.id}), all database files were removed!`);
@@ -134,6 +135,7 @@ client.on("message", message => {
       const embed = new Discord.MessageEmbed()
       .setAuthor(client.user.username)
       .setTitle(`a user ranked up!`)
+      .setColor(color)
       .setDescription(`${message.author.username} ranked up to rank ${curLevel}!`)
       .setTimestamp()
       message.channel.send(embed)
@@ -174,9 +176,10 @@ client.on('guildMemberAdd', member => {
     invites[member.guild.id] = guildInvites;
     // Look through the invites, find the one for which the uses went up.
     const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
-    var welctxt = db.get('serverInfo.wtxt')
+    var sid = member.guild.id
+    var welctxt = db.get(`serverinfo.wtxt${sid}`)
     if (welctxt === undefined) {
-      db.set('serverInfo.wtxt', `Welcome to ${member.guild.name} please enjoy your stay here.`)
+      db.set(`serverInfo.wtxt${sid}`, `Welcome to ${member.guild.name} please enjoy your stay here.`)
     }
     if (invite === undefined) {
       let (invite.code = "None")
@@ -199,3 +202,23 @@ client.on('guildMemberAdd', member => {
     welcomechannel.send(welcomeEmbed)
   });
 });
+
+
+//client.on('guildMemberAdd', member => {
+    //var ident = member.guild.id
+    //const role = db.get(`serverinfo.role${ident}`)
+    //const finalname = member.guild.name
+    //const roleid = member.guild.roles.find('id', `${role}`)
+   //  
+   // if (!role) return console.log(`[AUTOROLE] No role set for ${ident}`)
+
+   // if (role == undefined) return console.log(`[AUTOROLE] Returning undefined for ${ident}`)
+
+   // if (member.roles.has(roleid)) {
+      //console.log(`[AUTOROLE] User already has role, maybe an autorole conflict?`)
+    //} else {
+      //member.roles.add(roleid)
+     // console.log(`[AUTOROLE] ${member} was given ${role} in ${ident}`)
+      //member.send(`[AUTOROLE] You were given ${roleid} in ${finalname}`)
+    //}
+//})
