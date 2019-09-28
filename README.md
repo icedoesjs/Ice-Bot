@@ -1,4 +1,5 @@
 # Ice Bot
+<a href="https://i.imgur.com/6xafUjU.jpg"></a>
 <br>
 <h4 align="center">Soundboard, fun, games, moderation and Customizable.</h4>
 </br>
