@@ -71,5 +71,8 @@ If you would like to install the bot please read the [Wiki](https://github.com/i
 # License
 
 Released under the [ISC License](https://opensource.org/licenses/ISC) license. </br>
+**Copyright 2019, IceyyM8** </br>
+</br>
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 </br>
 Ice bot is named after the creator (IceyyM8)
