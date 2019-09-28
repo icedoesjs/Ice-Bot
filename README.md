@@ -64,12 +64,12 @@ Thanks for reading and feel free to suggest anything in our discord
 If you would like to install the bot please read the [Wiki](https://github.com/iceyym8/Ice-Bot/wiki/Home/) <br/>
 
 # Website
-[Ice bot's website](https://ice-bot.xyz)
-[My personal website](IceyyM8.xyz)
-[Follow my other projects](https://ice-bot.xyz/projects)
+[Ice bot's website](https://ice-bot.xyz) </br>
+[My personal website](IceyyM8.xyz) </br>
+[Follow my other projects](https://ice-bot.xyz/projects) </br>
 
 # License
 
-Released under the [ISC License](https://opensource.org/licenses/ISC) license.
-
+Released under the [ISC License](https://opensource.org/licenses/ISC) license. </br>
+</br>
 Ice bot is named after the creator (IceyyM8)
