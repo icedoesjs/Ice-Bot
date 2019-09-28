@@ -36,6 +36,7 @@ The support server can be found [here](https://discord.gg/25MdBSG)
 
 # Installation
 ## These Platfroms are supported
+**Please refer to the <a href="https://github.com/iceyym8/Ice-Bot/wiki">Wiki</a> for installation**
 • <a href="https://www.microsoft.com/en-us/windows">Windows</a> </br>
 • <a href="https://www.apple.com/macos/catalina/">Mac OS</a> </br>
 • <a href="https://www.techradar.com/best/best-linux-distros">Major Linux Distros</a> </br>
