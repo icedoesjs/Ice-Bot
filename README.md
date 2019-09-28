@@ -1,5 +1,5 @@
 # Ice Bot
-<a href="https://i.imgur.com/6xafUjU.jpg"></a>
+<a href="https://github.com/iceyym8/Ice-Bot"><img src="https://i.imgur.com/6xafUjU.jpg" alt="Ice bot - Discord.js"></a>
 <br>
 <h4 align="center">Soundboard, fun, games, moderation and Customizable.</h4>
 </br>
