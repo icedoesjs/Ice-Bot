@@ -36,9 +36,9 @@ The support server can be found [here](https://discord.gg/25MdBSG)
 
 # Installation
 ## These Platfroms are supported
-• <a href="https://www.microsoft.com/en-us/windows">Windows</a>
-• <a href="https://www.apple.com/macos/catalina/">Mac OS</a>
-• <a href="https://www.techradar.com/best/best-linux-distros">Major Linux Distros</a>
+• <a href="https://www.microsoft.com/en-us/windows">Windows</a> </br>
+• <a href="https://www.apple.com/macos/catalina/">Mac OS</a> </br>
+• <a href="https://www.techradar.com/best/best-linux-distros">Major Linux Distros</a> </br>
 
 # Dependencies
 All dependencies can be found in the package lock <br/>
