@@ -7,7 +7,7 @@ module.exports = class best {
 
     async run(client, message, args) {
         const Discord = require('discord.js')
-        var apikey = '00e51a32f6bdbedc63e5f17445c9851ef9aa58a3'
+        var apikey = 'OSU-API-KEY'
         const db = require('quick.db')
         var identifer = message.author.id
         var username = db.get(`userinfo${identifer}.osuname`)
